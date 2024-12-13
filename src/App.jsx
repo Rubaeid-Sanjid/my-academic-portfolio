@@ -1,5 +1,6 @@
 import About from "./Pages/About/About";
 import Certifications from "./Pages/Certifications/Certifications";
+import Contact from "./Pages/Contact/Contact";
 import Education from "./Pages/Education/Education";
 import Home from "./Pages/Home/Home";
 import Projects from "./Pages/Projects/Projects";
@@ -15,6 +16,7 @@ function App() {
         <Skills></Skills>
         <Projects></Projects>
         <Certifications></Certifications>
+        <Contact></Contact>
       </main>
     </>
   );
