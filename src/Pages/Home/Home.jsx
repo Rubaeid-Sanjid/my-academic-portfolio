@@ -3,8 +3,7 @@ import profileImg from "../../assets/Portfolio_Profile.jpg";
 
 const Home = () => {
   return (
-    <div className="hero min-h-screen mt-12">
-        {/* text-neutral-content  */}
+    <section className="hero min-h-screen text-neutral-content mt-12 ">
       <div className="flex justify-center items-center px-3 lg:px-24 gap-10 lg:gap-6 flex-col-reverse lg:flex-row">
         <div className="flex-1">
           <h1 className="text-4xl lg:text-5xl font-bold">
@@ -60,7 +59,7 @@ const Home = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -8,9 +8,8 @@ const Education = () => {
       program: "Bachelor of Science in Computer Science and Engineering (CSE)",
       duration: "2021 – Present",
       achievements: [
-        "Dean’s List for Academic Excellence (3rd semester, 2022)",
-        "Completed major courses in algorithms, web development, and software engineering",
-        "Participated in university hackathons and coding challenges",
+        "Dean’s List for Academic Excellence (2022)",
+        "Completing major in software engineering",
       ],
     },
     {
@@ -29,14 +28,14 @@ const Education = () => {
       program: "Secondary School Certificate (SSC) in Science",
       duration: "2016 – 2018",
       achievements: [
-        "Top 10% in academic performance",
+        "Great academic performance",
         "Awarded for excellence in sports activity.",
       ],
     },
   ];
 
   return (
-    <section className="py-10 px-5 bg-gray-100">
+    <section className="py-10 px-5 text-neutral-content">
       <div className="divider bg-neutral-content h-[1px] lg:w-1/2 w-3/4 mx-auto my-12"></div>
       <h2 className="text-4xl font-semibold mb-10 text-center">Education</h2>
 
@@ -52,17 +51,17 @@ const Education = () => {
               {/* <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold">
     {index + 1}
   </div> */}
-              <div className="bg-white shadow rounded-lg p-5 w-full min-h-[350px]">
+              <div className="bg-white shadow rounded-lg p-5 w-full min-h-[180px]">
                 <h3 className="text-xl font-semibold text-gray-800">
                   {edu.institution}
                 </h3>
                 <p className="text-gray-600">{edu.program}</p>
                 <p className="text-gray-500 mb-4">{edu.duration}</p>
-                <ul className="list-disc list-inside text-gray-700 space-y-2">
+                {/* <ul className="list-disc list-inside text-gray-700 space-y-2">
                   {edu.achievements.map((achievement, idx) => (
                     <li key={idx}>{achievement}</li>
                   ))}
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>
