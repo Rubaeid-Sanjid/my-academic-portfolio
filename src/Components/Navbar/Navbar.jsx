@@ -4,12 +4,15 @@ const Navbar = () => {
   const navlink = (
     <>
       <a className="text-xl mx-2 cursor-pointer" href="#about">About</a>
+      <a className="text-xl mx-2 cursor-pointer" href="#education">Education</a>
       <a className="text-xl mx-2 cursor-pointer" href="#skills">Skills</a>
       <a className="text-xl mx-2 cursor-pointer" href="#projects">Projects</a>
+      <a className="text-xl mx-2 cursor-pointer" href="#certifications">Certifications</a>
+      <a className="text-xl mx-2 cursor-pointer" href="#contact">Contact</a>
     </>
   );
   return (
-    <div className="navbar text-neutral-content px-3 lg:px-24 my-6">
+    <div className="navbar text-neutral-content px-3 lg:px-24 py-6">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn px-0 lg:px-1 btn-ghost lg:hidden">

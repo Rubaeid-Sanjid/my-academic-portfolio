@@ -3,6 +3,11 @@ import React from "react";
 const Certifications = () => {
   const achievements = [
     {
+      title: "Higher Secondary Certificate (HSC)",
+      image: "https://i.postimg.cc/WpynRfD3/SSC-Certification.jpg", 
+      link: "#",
+    },
+    {
       title: "Secondary School Certificate (SSC)",
       image: "https://i.postimg.cc/WpynRfD3/SSC-Certification.jpg", 
       link: "#",
@@ -12,15 +17,21 @@ const Certifications = () => {
       image: "https://i.postimg.cc/4yjbzmCt/Deans-Award.jpg", 
       link: "#",
     },
+    {
+      title: "Complete Web Development Course",
+      image: "https://i.postimg.cc/D0JJrhKb/Certificate-of-Complete-Web-Development-Course-With-Jhankar-Mahbub.jpg", 
+      link: "#",
+    },
     
   ];
 
   return (
-    <section className="py-10 px-5 text-neutral-content">
+    <section id="certifications" className="py-10 px-5 text-neutral-content">
       <div className="max-w-7xl mx-auto">
+      <div className="divider bg-neutral-content h-[1px] lg:w-1/2 w-3/4 mx-auto my-12"></div>
         <h2 className="text-4xl font-semibold mb-10 text-center">Certifications and Achievements</h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
           {achievements.map((achievement, index) => (
             <a
               key={index}

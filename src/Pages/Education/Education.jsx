@@ -35,9 +35,9 @@ const Education = () => {
   ];
 
   return (
-    <section className="py-10 px-5 text-neutral-content">
+    <section id="education" className="py-10 px-5 text-neutral-content">
       <div className="divider bg-neutral-content h-[1px] lg:w-1/2 w-3/4 mx-auto my-12"></div>
-      <h2 className="text-4xl font-semibold mb-10 text-center">Education</h2>
+      <h2 className="text-4xl font-semibold mb-10 text-center">Educational Qualifications</h2>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {educationData.map((edu, index) => (
@@ -51,12 +51,12 @@ const Education = () => {
               {/* <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold">
     {index + 1}
   </div> */}
-              <div className="bg-white shadow rounded-lg p-5 w-full min-h-[180px]">
-                <h3 className="text-xl font-semibold text-gray-800">
+              <div className="bg-gray-300 shadow rounded-lg p-5 w-full min-h-[185px] transform transition hover:scale-105 shadow-white">
+                <h3 className="text-xl font-semibold text-gray-800 mb-2">
                   {edu.institution}
                 </h3>
-                <p className="text-gray-600">{edu.program}</p>
-                <p className="text-gray-500 mb-4">{edu.duration}</p>
+                <p className="text-gray-600 font-medium mb-2">{edu.program}</p>
+                <p className="text-gray-600 font-medium">{edu.duration}</p>
                 {/* <ul className="list-disc list-inside text-gray-700 space-y-2">
                   {edu.achievements.map((achievement, idx) => (
                     <li key={idx}>{achievement}</li>
