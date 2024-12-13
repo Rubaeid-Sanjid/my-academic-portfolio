@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const ProjectCards = ({ project }) => {
   return (
     // whileHover={{ scale: 1.1, transition: {duration: 0.8, ease: "easeInOut"} }}
-    <div className="card bg-gradient-to-r from-[#b1caed] to-[#dbe3f7]">
+    <div className="card bg-gradient-to-r from-[#b1caed] to-[#dbe3f7] transition transform hover:scale-105">
       <figure>
         <img
           src={project.image}

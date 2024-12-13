@@ -18,7 +18,7 @@ const Skills = () => {
   ];
 
   return (
-    <section className="py-10 px-5 text-neutral-content relative">
+    <section id="skills" className="py-10 px-5 text-neutral-content relative">
       {/* Background animation */}
       <div className="absolute inset-0 opacity-20">
         <div className="w-full h-full bg-[url('https://www.toptal.com/designers/subtlepatterns/uploads/hexabump.png')] animate-pulse"></div>

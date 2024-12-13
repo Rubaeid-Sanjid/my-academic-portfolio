@@ -1,3 +1,5 @@
+import Footer from "./Components/Footer/Footer";
+import Navbar from "./Components/Navbar/Navbar";
 import About from "./Pages/About/About";
 import Certifications from "./Pages/Certifications/Certifications";
 import Contact from "./Pages/Contact/Contact";
@@ -10,6 +12,7 @@ function App() {
   return (
     <>
       <main className="bg-gray-900">
+        <Navbar></Navbar>
         <Home></Home>
         <About></About>
         <Education></Education>
@@ -17,6 +20,7 @@ function App() {
         <Projects></Projects>
         <Certifications></Certifications>
         <Contact></Contact>
+        <Footer></Footer>
       </main>
     </>
   );
