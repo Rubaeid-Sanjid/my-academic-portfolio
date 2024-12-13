@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "name": "EduScholar",
+      "description": "It is a scholarship management website. Users can apply for university scholarships and admin can manage all scholarships.",
+      "technologies": ["React JS", "Tailwind CSS", "Firebase", "Node.js", "Express Js", "MongoDB"],
+      "image": "https://i.postimg.cc/prstXcd1/Edu-Scholar.png",
+      "projectLink": "https://eduscholar-434da.web.app/",
+      "repositoryLink": "https://github.com/Rubaeid-Sanjid/EduScholar-client-side",
+      "serverRepositoryLink": "https://github.com/Rubaeid-Sanjid/EduScholar-server-side"
+    },
+    {
+      "id": 2,
+      "name": "TechTALKS",
+      "description": "It is a tech related bloging website. Users can create, edit, and delete posts and add comments.",
+      "technologies": ["React JS", "Tailwind CSS", "Firebase", "Node.js", "Express Js", "MongoDB"],
+      "image": "https://i.postimg.cc/V6B82kPw/Tech-Talks.png",
+      "projectLink": "https://tech-talks-auth.web.app",
+      "repositoryLink": "https://github.com/Rubaeid-Sanjid/Tech-Talks-client-side",
+      "serverRepositoryLink": "https://github.com/Rubaeid-Sanjid/Tech-Talks-server-side"
+    },
+    {
+      "id": 3,
+      "name": "Canvas Creations",
+      "description": "It is an online art gallery store. Users can add, update and delete their products to sell.",
+      "technologies": ["React JS", "Tailwind CSS", "Firebase", "Node.js", "Express Js", "MongoDB"],
+      "image": "https://i.postimg.cc/j2xbTYR7/Canvas-Creations.png",
+      "projectLink": "https://art-and-craft-store-auth.web.app",
+      "repositoryLink": "https://github.com/Rubaeid-Sanjid/Art-and-Craft-Store-client-side",
+      "serverRepositoryLink": "https://github.com/Rubaeid-Sanjid/Art-and-Craft-Store-server-side"
+    }
+  ]
+  

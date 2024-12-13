@@ -18,14 +18,14 @@ const Skills = () => {
   ];
 
   return (
-    <section className="py-10 px-5 text-white relative">
+    <section className="py-10 px-5 text-neutral-content relative">
       {/* Background animation */}
       <div className="absolute inset-0 opacity-20">
         <div className="w-full h-full bg-[url('https://www.toptal.com/designers/subtlepatterns/uploads/hexabump.png')] animate-pulse"></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto">
-        <h2 className="text-4xl font-semibold mb-10 text-center">Skills</h2>
+        <h2 className="text-4xl font-semibold mb-10 text-center text-neutral-content">Skills</h2>
 
         <div className="grid md:grid-cols-2 gap-8">
           {/* Hard Skills */}
